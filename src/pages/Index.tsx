@@ -58,12 +58,20 @@ const Index = () => {
       <section className="relative overflow-hidden bg-secondary py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary animate-fade-in">
+            <div className="mb-8 flex justify-center animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/a138a8d6-5bee-464d-8c07-3dfcec8a23f6.png" 
+                alt="Грейдерок" 
+                className="h-32 w-32 md:h-40 md:w-40 rounded-2xl shadow-2xl"
+              />
+            </div>
+            
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <Icon name="Sparkles" size={16} />
               <span>Самый быстрый сервис аренды спецтехники</span>
             </div>
             
-            <h1 className="mb-6 text-4xl font-bold text-white md:text-6xl lg:text-7xl animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <h1 className="mb-6 text-4xl font-bold text-white md:text-6xl lg:text-7xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
               ГРЕЙДЕРОК
             </h1>
             
